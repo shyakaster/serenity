@@ -277,6 +277,9 @@ Buttons style
   background: #333;
   color: #fff;
 }
+.btn-message{
+  margin-bottom: 40px;
+}
 
 /*
 Page and heading titles
