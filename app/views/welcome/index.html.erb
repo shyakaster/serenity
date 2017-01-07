@@ -1,16 +1,16 @@
-
         <div class="call-to-action">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-12">
-                        <h2 class="text-capitalize">A Charity for help poor childerns</h2>
+                        <h2 class="text-capitalize">A loving home for every child</h2>
                         <p class="margin-b-0">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatudolorem ipsum quia dolo
+                            <!-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatudolorem ipsum quia dolo -->
                         </p>
                     </div>
                     <div class="col-md-4 text-center col-sm-12">
                         <div class="space-20"></div>
-                        <a href="#" class="btn btn-lg btn-white-bg">Want to Donate</a>
+                        <!-- <a href="/contact/new" class="btn btn-lg btn-white-bg">Want to Donate</a> -->
+                        <%= link_to "Contact us to Donate", contactus_path, role:'button', class:'btn btn-lg btn-white-bg'%>
                     </div>
                 </div>
             </div>
@@ -22,9 +22,9 @@
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <div class="center-title">
                         <h3>Featured causes</h3>
-                        <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatudolorem ipsum quia dolo  voluptate velit esse cillum dolore eu fugiat
-                        </p>
+                        <p class="lead">
+                            <strong>Serenity kids are appealing to all of you out there who would love to stretch a hand and
+                            help a child by contributing towards shelter, medical care, clothing, beddings, food and general welfare.</strong>                        </p>
                     </div>
                 </div>
             </div><!--end center title-->
@@ -33,143 +33,93 @@
                     <div class="item">
                         <div class="causes-box">
                             <div class="causes-thumb">
-                                <span class="image-badge">194 Day left</span>
-                                <img src="/images/img1.jpg" alt="" class="img-responsive">
+                                <span class="image-badge">98 Days left</span>
+                                <img src="/images/featured2.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="causes-desc">
-                                <h4><a href="#">Charity for education</a></h4>
+                                <h4><a href="#">Serenity medical care</a></h4>
                                 <div class="progress clearfix">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>                                  
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
                                 </div>
                                 <div class="row causes-amount">
                                     <div class="col-xs-6">
                                         <span>Raised</span>
-                                        <h1>$25,142</h1>
+                                        <h1>UGX 500,000</h1>
                                     </div>
                                     <div class="col-xs-6">
                                         <span>Goal</span>
-                                        <h1>$10,0000</h1>
+                                        <h1>UGX 6,000,000</h1>
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, eu qui modo expeten dis reformidans, ex sit appetere sententiae.
+                                    <strong>This helps with the children's existing medical obligations like immunisations and any medical emergencies</strong>
                                 </p>
-                                <a href="#" class="btn btn-theme-bg">Donate Now</a>
+                                <!-- <a href="#" class="btn btn-theme-bg">Donate Now</a> -->
+                                <%= link_to "Contact us to Donate", contactus_path, class:'btn btn-theme-bg'%>
                             </div>
                         </div><!--end causes box-->
                     </div><!--end causes item-->
                     <div class="item">
                         <div class="causes-box">
                             <div class="causes-thumb">
-                                <span class="image-badge">194 Day left</span>
-                                <img src="/images/img2.jpg" alt="" class="img-responsive">
+                                <span class="image-badge">90 Days left</span>
+                                <img src="/images/featured5.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="causes-desc">
-                                <h4><a href="#">Charity for education</a></h4>
+                                <h4><a href="#">Serenity shelter</a></h4>
                                 <div class="progress clearfix">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>                                  
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
                                 </div>
                                 <div class="row causes-amount">
                                     <div class="col-xs-6">
                                         <span>Raised</span>
-                                        <h1>$25,142</h1>
+                                        <h1>UGX 1,500,000</h1>
                                     </div>
                                     <div class="col-xs-6">
                                         <span>Goal</span>
-                                        <h1>$10,0000</h1>
+                                        <h1>UGX 20,000,000</h1>
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, eu qui modo expeten dis reformidans, ex sit appetere sententiae.
+                                    <strong>We are already have plans for expanding our accomodation so that our kids can sleep
+                                    comfortably and your contribution would be highly appreciated.</strong>
                                 </p>
-                                <a href="#" class="btn btn-theme-bg">Donate Now</a>
+                                <!-- <a href="#" class="btn btn-theme-bg">Donate Now</a> -->
+                                  <%= link_to "Contact us to Donate", contactus_path, class:'btn btn-theme-bg'%>
                             </div>
                         </div><!--end causes box-->
                     </div><!--end causes item-->
+
                     <div class="item">
                         <div class="causes-box">
                             <div class="causes-thumb">
-                                <span class="image-badge">194 Day left</span>
-                                <img src="/images/img3.jpg" alt="" class="img-responsive">
+                                <span class="image-badge">160 Days left</span>
+                                <img src="/images/featured4.jpg" alt="" class="img-responsive">
                             </div>
                             <div class="causes-desc">
-                                <h4><a href="#">Charity for education</a></h4>
+                                <h4><a href="#">Serenity food and general welfare.</a></h4>
                                 <div class="progress clearfix">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>                                  
+                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
                                 </div>
                                 <div class="row causes-amount">
                                     <div class="col-xs-6">
                                         <span>Raised</span>
-                                        <h1>$25,142</h1>
+                                        <h1>UGX 700,000</h1>
                                     </div>
                                     <div class="col-xs-6">
                                         <span>Goal</span>
-                                        <h1>$10,0000</h1>
+                                        <h1>UGX 4,000,000</h1>
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, eu qui modo expeten dis reformidans, ex sit appetere sententiae.
+                                    <strong>As the number of children also the cost feeding them and generally taking care of them on a daily basis increases
+                                    your help would be highly appreciated</strong>
                                 </p>
-                                <a href="#" class="btn btn-theme-bg">Donate Now</a>
+                                <%= link_to "Contact us to Donate", contactus_path, class:'btn btn-theme-bg'%>
                             </div>
                         </div><!--end causes box-->
                     </div><!--end causes item-->
-                    <div class="item">
-                        <div class="causes-box">
-                            <div class="causes-thumb">
-                                <span class="image-badge">194 Day left</span>
-                                <img src="/images/img2.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="causes-desc">
-                                <h4><a href="#">Charity for education</a></h4>
-                                <div class="progress clearfix">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>                                  
-                                </div>
-                                <div class="row causes-amount">
-                                    <div class="col-xs-6">
-                                        <span>Raised</span>
-                                        <h1>$25,142</h1>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <span>Goal</span>
-                                        <h1>$10,0000</h1>
-                                    </div>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, eu qui modo expeten dis reformidans, ex sit appetere sententiae.
-                                </p>
-                                <a href="#" class="btn btn-theme-bg">Donate Now</a>
-                            </div>
-                        </div><!--end causes box-->
-                    </div><!--end causes item-->
-                    <div class="item">
-                        <div class="causes-box">
-                            <div class="causes-thumb">
-                                <span class="image-badge">194 Day left</span>
-                                <img src="/images/img3.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="causes-desc">
-                                <h4><a href="#">Charity for education</a></h4>
-                                <div class="progress clearfix">
-                                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>                                  
-                                </div>
-                                <div class="row causes-amount">
-                                    <div class="col-xs-6">
-                                        <span>Raised</span>
-                                        <h1>$25,142</h1>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <span>Goal</span>
-                                        <h1>$10,0000</h1>
-                                    </div>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet, eu qui modo expeten dis reformidans, ex sit appetere sententiae.
-                                </p>
-                                <a href="#" class="btn btn-theme-bg">Donate Now</a>
-                            </div>
-                        </div><!--end causes box-->
-                    </div><!--end causes item-->
+
                 </div><!--end causes slider-->
             </div>
         </div>
@@ -208,8 +158,9 @@
                     <div class="col-sm-8 col-sm-offset-2 text-center">
                         <div class="center-title">
                             <h3>Successful stories</h3>
-                            <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatudolorem ipsum quia dolo  voluptate velit esse cillum dolore eu fugiat
+                            <p class="lead">
+                                <strong>We have scored some great achievements at serenity kids and below are some of the success stories among others.
+                                We hope to continue touching the lives of the young ones we take care of.</strong>
                             </p>
                         </div>
                     </div>
@@ -218,7 +169,8 @@
                     <div class="col-sm-4 margin-b-30">
                         <div class="story-box">
                             <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+                                <strong>" I was greatly impressed by the work that serenity kids is doing to give the kids a better life and future.
+                                  They handle their work with the utmost professionalism and their love for the kids is unrivaled. Keep up the good work "</strong>
                             </p>
                             <div class="story-info">
                                 <img src="/images/team-1.jpg" alt="" class="img-responsive img-circle" width="50">
@@ -229,7 +181,8 @@
                     <div class="col-sm-4 margin-b-30">
                         <div class="story-box">
                             <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+                              " I was greatly impressed by the work that serenity kids is doing to give the kids a better life and future.
+                                They handle their work with the utmost professionalism  and their love for the kids is unrivaled. Keep up the good work ".
                             </p>
                             <div class="story-info">
                                 <img src="/images/team-2.jpg" alt="" class="img-responsive img-circle" width="50">
@@ -240,7 +193,8 @@
                     <div class="col-sm-4 margin-b-30">
                         <div class="story-box">
                             <p class="story-text">
-                                " Save the life is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
+                              <strong>" I was greatly impressed by the work that serenity kids is doing to give the kids a better life and future.
+                                They handle their work with the utmost professionalism and their love for the kids is unrivaled. Keep up the good work "</strong>
                             </p>
                             <div class="story-info">
                                 <img src="/images/team-3.jpg" alt="" class="img-responsive img-circle" width="50">
@@ -316,5 +270,4 @@
                     </div>
                 </div>
             </div>
-        </div>     
-  
+        </div>
